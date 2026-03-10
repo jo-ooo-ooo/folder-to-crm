@@ -1,0 +1,32 @@
+# Data files (contain PII)
+*.csv
+!examples/sample_output.csv
+*.xlsx
+*.json
+*.bak
+
+# Email archives
+Inbox_*/
+Sent_*/
+
+# Client folders
+Clients/
+
+# Candidate batches
+candidate_batches/
+
+# Cache files
+enrichment_cache*
+qa_uncertain*
+
+# OS files
+.DS_Store
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+.idea/
+
+# PDF source data
+examples/*.pdf
