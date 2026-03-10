@@ -1,4 +1,4 @@
-# What I Learned
+# Learnings
 
 Helping a friend clean up their client database. Small equipment business, 15 years, clients worldwide, zero CRM. Scan folders of quotes, invoices, emails. Extract client info.
 
@@ -34,15 +34,15 @@ If everyone had infinite tokens, this would be a trivial decision. In reality, c
 
 ## Building with AI
 
-I ran this project through Claude Code — not just for code, but for scoping decisions and process improvement. After 9 extraction rounds, I asked "what would you suggest if we do this again?" and got five improvements I wouldn't have synthesized on my own. When I suspected the grep approach might be simpler, I ran a 30-row experiment to validate before rebuilding.
+For someone who is not very technical (me), I ran this project through Claude Code. But not just for code, but for scoping decisions and process improvement. After 9 extraction rounds, I asked "what would you suggest if we do this again?" and got five improvements I wouldn't have synthesized on my own. When I suspected the grep approach might be simpler, I ran a 30-row experiment to validate before rebuilding.
 
-The skill isn't prompting. It's knowing when to explore, when to experiment, and when to step back and ask for a retro.
+As a PM, it's just like working with my tech lead.
 
-## The technology gap
+## The technology gap that I observed
 
 We're talking about AGI while millions of small businesses organize client info in folders, running on 15-year relationships and handshake deals. The distribution of technology is uneven, and we're not paying attention to that gap.
 
-This project sits right there. Not a demo, not a benchmark. 5,000 PDFs and 46,000 emails turned into a usable client database — the first step toward a CRM that will change how a 15-year business operates.
+This project sits right there. Not a demo, not a benchmark. 5,000 PDFs and 46,000 emails turned into a usable client database — the first step toward a CRM that will change how a 15-year business operates. And there are more oppotunities like this, that we tech people are ignoring. The distribution of technology is so uneven.
 
 ## If I did it again
 
@@ -53,3 +53,4 @@ This project sits right there. Not a demo, not a benchmark. 5,000 PDFs and 46,00
 5. **Per-field confidence.** High-confidence email shouldn't be blocked by medium-confidence phone.
 6. **Watch the cost.** Parallel agents and large batch LLM calls can burn through budgets in minutes. The cheapest approach that works is the right one.
 7. **Prioritize by value.** Not all contacts are equal. Clients with invoices (they actually paid), long-term clients across years, and recent active clients matter most. Cover those first.
+
