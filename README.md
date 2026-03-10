@@ -9,7 +9,7 @@ Helping a small equipment business build a client database from scratch. 15 year
 
 ## The Problem
 
-The source data spanned 2013-2025, in French and English, across 5+ document template eras. The PDFs included quotes, invoices, and proforma invoices — but also supplier documents, airline receipts, customs forms, and forwarded emails mixed into the same folders.
+The source data spanned 2013-2025, in French and English, across 5+ document template eras. The PDFs and emails included quotes, invoices, and proforma invoices — but also supplier documents, airline receipts, customs forms, and forwarded emails mixed into the same folders.
 
 The goal: extract company name, contact person, postal address, phone, mobile, and email for every client into a clean CSV.
 
@@ -137,4 +137,5 @@ See [LEARNINGS.md](LEARNINGS.md) for the full write-up on lessons learned.
 ## License
 
 MIT
+
 
